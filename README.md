@@ -1,1 +1,1 @@
-### Dette er løsningsforslagene til Programmering 3
+### Dette er løsningsforslag til Programmering 3
