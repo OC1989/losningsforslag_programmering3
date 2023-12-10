@@ -1,1 +1,1 @@
-### Denne repository-en inneholder løsningsforslag til Programmering 3
+### Dette er løsningsforslagene til Programmering 3
