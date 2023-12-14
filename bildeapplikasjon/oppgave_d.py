@@ -13,4 +13,4 @@ bilde.thumbnail((ny_bredde, ny_bredde))
 # Lagre det endrede bildet
 bilde.save(output_bilde)
 
-print(f"Bilde endret og lagret som {output_bilde}")
+print(f"Bildet ble endret og lagret som {output_bilde}")
