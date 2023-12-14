@@ -13,17 +13,17 @@ im = Image.open(input_path)
 
 if rotation_choice == 1:
     rotated_im = im.rotate(-90, expand=True)
-    output_path = input("Skriv inn sti til det roterte bildet: ")
+    output_path = input("Skriv inn filnavn på det roterte bildet: ")
     rotated_im.save(output_path)
 
 elif rotation_choice == 2:
     rotated_im = im.rotate(90, expand=True)
-    output_path = input("Skriv inn sti til det roterte bildet: ")
+    output_path = input("Skriv inn filnavn på det roterte bildet: ")
     rotated_im.save(output_path)
 
 elif rotation_choice == 3:
     rotated_im = im.rotate(180, expand=True)
-    output_path = input("Skriv inn sti til det roterte bildet: ")
+    output_path = input("Skriv inn filnavn på det roterte bildet: ")
     rotated_im.save(output_path)
 
 else:
