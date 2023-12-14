@@ -13,9 +13,10 @@ def main():
     print("f. N/A")
     print("g. Legg en hvit ramme rundt bildet")
     print("\f") 
+    
     valg = input("Valg: ")
 
-    # Combine everything into the subprocess.run line
+    # Run the selected script using subprocess
     subprocess.run(["python", f"bildeapplikasjon/oppgave_{valg}.py"])
 
 if __name__ == "__main__":
