@@ -16,7 +16,7 @@ def main():
     valg = input("Valg: ")
 
     # Combine everything into the subprocess.run line
-    subprocess.run(["python3", f"bildeapplikasjon/oppgave_{valg}.py"])
+    subprocess.run(["python", f"bildeapplikasjon/oppgave_{valg}.py"])
 
 if __name__ == "__main__":
     main()
